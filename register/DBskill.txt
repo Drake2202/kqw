@@ -1,0 +1,8 @@
+Skill
+INSERT INTO meh_skills (`id`, `Name`, `Anim`, `Desc`, `Damage`, `Mana`, `Icon`, `Range`, `Dsrc`, `Ref`, `Tgt`, `Typ`, `Strl`, `CD`, `TgtMax`, `Effects`, `AuraID`) VALUES 
+('0','Decisive Strike','Attack3','A powerful strike, dealing 150% weapon damage.','1.5','20','ims2,iwaxe','301','AP2','a1','h','p','','2000','0','m','0'),
+('0','Imbalancing Strike','Stab','A precise blow which stuns your opponent for 4 seconds.','0.4','30','iss1','301','AP2','a2','h','p','','10000','0','m','0'),
+('0','Prepared Strike','Point','Your next two auto attacks taken within 5 seconds will be powerful critical hits which cannot be avoided.','0.0','20','imd1,iwsword','301','','a3','s','p','','15000','0','m','0'),
+('0','On Guard','Attack4','Challenge your opponent, dealing 75% normal damage, and taking 50% damage from all sources for 10 seconds.','0.75','30','iwshield','301','AP2','a4','h','p','','30000','0','m','0'),
+('0','Aggression','','You deal 10% additional damage with physical attacks','1.0','0','isp2','301','','p1','s','passive','','0','0','m','0'),
+('0','Resolute','','Damage taken reduced by 10%','1.0','0','isp2','301','','p2','s','passive','','0','0','m','0');
